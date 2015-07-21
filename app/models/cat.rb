@@ -5,7 +5,7 @@ class Cat < ActiveRecord::Base
     "#{self.name} - #{self.age}"
   end
 
-  def i
+  def owner_info_display
     "#{self.owner.name} - #{self.owner.age}"
   end
 end
